@@ -1,0 +1,159 @@
+@import './navbar';
+@import './bestfood';
+@import './add';
+@import './checkout';
+@import './login';
+@import './slider';
+@import './footer';
+@import './edit-data';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Work+Sans:wght@400;600;800&display=swap');
+
+$font-primary: 'Montserrat', sans-serif;
+$font-secondary: 'Work Sans', sans-serif;
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: $font-primary;
+}
+
+p,a {
+    font-family: $font-secondary;
+}
+
+input[type=text], input[type=email], input[type=password], textarea {
+    padding: 6px;
+}
+
+.main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .form-control {
+        .form-label {
+            margin: 0;
+            width: 100%;
+        }
+    }
+
+    .swiper-slide h2 {
+        font-size: 20px;
+    }
+
+    .swiper-container {
+        width: 100%;
+        height: auto;
+    }
+    
+    .admin {
+        max-width: 600px;
+        margin: 0 auto;
+        img {
+            width: 100px;
+        }
+    }
+
+    .description {
+
+        .category {
+            font-size: 12px;
+        }
+    }
+
+
+    .hero {
+        text-align: center;
+        flex-direction: column-reverse;
+
+        .hero-right {
+            img {
+                max-width: 300px;
+                margin: 0 auto;
+                margin-bottom: 10px;
+            }
+    
+        }
+    }
+
+    .best-food {
+        h1 {
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+
+    // .card {
+    //     margin: 10px 0;
+    // }
+
+    .card-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .login {
+        margin: 0px auto;
+        padding: 0 30px;
+        flex-direction: column;
+        .wrapper-brand {
+            display: none;
+            margin-bottom: 40px;
+            h1 {
+                text-align: center;
+                font-style: italic;
+                font-weight: 600;
+            }
+        }
+    }
+    .lihat-lainnya {
+        a {
+            padding-right: 22px;
+        }
+    }
+
+    
+    .checkout-wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+    }
+
+    .billing-details {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .order-details {
+        margin-top: 20px;
+    }
+
+    .daftar-menu {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .nav-item {
+        margin: 0 10px;
+    }
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.img {
+    width: 400px;
+    height: auto;
+}
+
+.nama:hover {
+    background-color: transparent;
+    cursor: default;
+}

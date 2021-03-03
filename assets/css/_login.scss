@@ -1,0 +1,74 @@
+$font-primary: 'Montserrat', sans-serif;
+$font-secondary: 'Work Sans', sans-serif;
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0px auto;
+    height: 100vh;
+    max-width: 800px;
+
+    h1 {
+        font-family: $font-primary;
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+    input[type=submit] {
+        width: 100%;
+    }
+}
+
+form {
+    font-family: $font-secondary;
+}
+
+
+.login-footer {
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    p {
+        padding-right: 10px;
+    }
+}
+
+.login-later {
+    text-align: center;
+    a {
+        text-decoration: underline;
+    }
+}   
+
+.sk {
+    word-wrap: break-word ;
+    font-size: 12px;
+    color: gray;
+}
+
+.wrapper-brand {
+    h1 {
+        margin-bottom: 0;
+        font-family: $font-primary;
+        text-align: left;
+        font-style: italic;
+        font-weight: 800;
+    }
+    p {
+        font-family: $font-secondary;
+    }
+}
+
+// REGISTER
+
+#error {
+    color: red;
+    display: none;
+}
+
+// input[type=text], input[type=password] {
+//     padding: 4px;
+// }

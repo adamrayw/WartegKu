@@ -1,0 +1,74 @@
+$font-primary: 'Montserrat', sans-serif;
+$font-secondary: 'Work Sans', sans-serif;
+
+.navbar {
+    .brand {
+        padding: 10px 0;
+        .navbar-brand {
+            font-size: 24px;
+            margin-bottom: 0;
+            font-family: "Montserrat", sans-serif;
+            text-align: left;
+            font-style: italic;
+            font-weight: 800;
+            color: black;
+        }
+    }
+    .navbar-right {
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+    .nav-link {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+
+.user {
+    font-size: 14px;
+}
+
+// HERO
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 30px 0 80px 0;
+    .hero-left {
+        h1 {
+            font-size: 34px;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+        p {
+            font-size: 18px;
+            color: gray;
+
+        }
+        a {
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        a:hover {
+            background-color: rgb(46, 44, 44);
+        }
+    }
+    .hero-right {
+        img {
+            width: 600px;
+            height: auto;
+        }
+    }
+}
+
+.dropdown-item {
+    p, a{
+        margin: 0;
+    }
+}

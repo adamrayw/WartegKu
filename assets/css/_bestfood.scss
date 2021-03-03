@@ -1,0 +1,88 @@
+.best-food {
+    h1 {
+        font-size: 18px;
+        font-weight: lighter;
+        margin-bottom: 8px;
+        text-align: left;
+    }
+}
+
+
+.card-container {
+    display: grid;
+    gap: 10px;
+    align-items: center;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    a {
+        transition: .3s ease;
+    }
+    a:hover {
+        text-decoration: none;
+    }
+    .card {
+        max-width: 400px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        transition: .3s ease;
+        img {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .description {
+            padding: 10px 10px 5px 10px;
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+    .card:hover {
+        background-color: rgb(228, 228, 228);
+    }
+    // .card:nth-child(even) {
+    //     margin: 0 20px;
+
+    // }
+    .price {
+        display: inline;
+        .nama_menu {
+            p {
+                margin : 0;
+            }
+            .nama {
+                color: rgb(32, 32, 32);
+            }
+            .harga {
+                color: gray;
+                margin-bottom: 10px;
+            }
+            .category {
+                color: gray;
+            }
+
+        }
+    }
+    .category {
+        color: gray;
+    }
+    .add {
+        margin: 20px 0 0 0 ;
+        border: 1px solid grey;
+        background-color: transparent;
+        padding: 6px 24px;
+        color: gray;
+        border-radius: 4px;
+        transition: .3s ease;
+        font-size: 12px;
+    }
+    .add:hover {
+        margin: 20px 0 0 0 ;
+        border: 1px solid rgb(0, 0, 0);
+        background-color: black;
+        padding: 8px 24px;
+        color: white;
+        border-radius: 4px;
+    }
+}

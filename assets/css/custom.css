@@ -1,0 +1,572 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Work+Sans:wght@400;600;800&display=swap");
+.navbar .brand {
+  padding: 10px 0;
+}
+
+.navbar .brand .navbar-brand {
+  font-size: 24px;
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  font-style: italic;
+  font-weight: 800;
+  color: black;
+}
+
+.navbar .navbar-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.user {
+  font-size: 14px;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 30px 0 80px 0;
+}
+
+.hero .hero-left h1 {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.hero .hero-left p {
+  font-size: 18px;
+  color: gray;
+}
+
+.hero .hero-left a {
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.hero .hero-left a:hover {
+  background-color: #2e2c2c;
+}
+
+.hero .hero-right img {
+  width: 600px;
+  height: auto;
+}
+
+.dropdown-item p, .dropdown-item a {
+  margin: 0;
+}
+
+.best-food h1 {
+  font-size: 18px;
+  font-weight: lighter;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.card-container {
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card-container a {
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.card-container a:hover {
+  text-decoration: none;
+}
+
+.card-container .card {
+  max-width: 400px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.card-container .card img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-container .card .description {
+  padding: 10px 10px 5px 10px;
+}
+
+.card-container .card .description a {
+  text-decoration: none;
+}
+
+.card-container .card:hover {
+  background-color: #e4e4e4;
+}
+
+.card-container .price {
+  display: inline;
+}
+
+.card-container .price .nama_menu p {
+  margin: 0;
+}
+
+.card-container .price .nama_menu .nama {
+  color: #202020;
+}
+
+.card-container .price .nama_menu .harga {
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.card-container .price .nama_menu .category {
+  color: gray;
+}
+
+.card-container .category {
+  color: gray;
+}
+
+.card-container .add {
+  margin: 20px 0 0 0;
+  border: 1px solid grey;
+  background-color: transparent;
+  padding: 6px 24px;
+  color: gray;
+  border-radius: 4px;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  font-size: 12px;
+}
+
+.card-container .add:hover {
+  margin: 20px 0 0 0;
+  border: 1px solid black;
+  background-color: black;
+  padding: 8px 24px;
+  color: white;
+  border-radius: 4px;
+}
+
+.wrapper {
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.wrapper h1 {
+  margin: 20px 0;
+  font-size: 24px;
+}
+
+.wrapper form label {
+  margin: 0;
+}
+
+.wrapper form input {
+  margin: 8px 0 16px 0;
+}
+
+.wrapper .keranjang {
+  background-color: black;
+  color: white;
+}
+
+.checkout h1 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.checkout .p {
+  margin: 0;
+}
+
+.daftar-menu {
+  margin-right: 60px;
+}
+
+.daftar-menu label {
+  color: gray;
+}
+
+.daftar-menu textarea {
+  color: black;
+}
+
+.checkout-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.error img {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.error h1 {
+  margin: 20px 0;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.error p {
+  color: #7f7f7f;
+}
+
+.konfirmasi img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.success-add img {
+  max-width: 300px;
+  height: auto;
+}
+
+.success-add p {
+  color: #7f7f7f;
+}
+
+.billing-details {
+  width: 300px;
+}
+
+.order-details {
+  width: 100%;
+}
+
+.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0px auto;
+  height: 100vh;
+  max-width: 800px;
+}
+
+.login h1 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.login input[type=submit] {
+  width: 100%;
+}
+
+form {
+  font-family: "Work Sans", sans-serif;
+}
+
+.login-footer {
+  margin: 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login-footer p {
+  padding-right: 10px;
+}
+
+.login-later {
+  text-align: center;
+}
+
+.login-later a {
+  text-decoration: underline;
+}
+
+.sk {
+  word-wrap: break-word;
+  font-size: 12px;
+  color: gray;
+}
+
+.wrapper-brand h1 {
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  font-style: italic;
+  font-weight: 800;
+}
+
+.wrapper-brand p {
+  font-family: "Work Sans", sans-serif;
+}
+
+#error {
+  color: red;
+  display: none;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 400px;
+}
+
+.swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.swiper-slide h2 {
+  padding: 20px;
+  font-size: 40px;
+  position: absolute;
+  color: white;
+  font-weight: 600;
+}
+
+.swiper-container img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+
+.swiper-container2 {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.developer {
+  font-size: 12px;
+}
+
+.developer .dev {
+  color: gray;
+}
+
+.edit-data h1 {
+  font-size: 24px;
+}
+
+label, .form-label, .form-control {
+  margin: 0;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p, a {
+  font-family: "Work Sans", sans-serif;
+}
+
+input[type=text], input[type=email], input[type=password], textarea {
+  padding: 6px;
+}
+
+.main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .form-control .form-label {
+    margin: 0;
+    width: 100%;
+  }
+  .swiper-slide h2 {
+    font-size: 20px;
+  }
+  .swiper-container {
+    width: 100%;
+    height: auto;
+  }
+  .admin {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .admin img {
+    width: 100px;
+  }
+  .description .category {
+    font-size: 12px;
+  }
+  .hero {
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .hero .hero-right img {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .best-food h1 {
+    font-size: 14px;
+    text-align: center;
+  }
+  .card-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .login {
+    margin: 0px auto;
+    padding: 0 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .login .wrapper-brand {
+    display: none;
+    margin-bottom: 40px;
+  }
+  .login .wrapper-brand h1 {
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+  }
+  .lihat-lainnya a {
+    padding-right: 22px;
+  }
+  .checkout-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .billing-details {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .order-details {
+    margin-top: 20px;
+  }
+  .daftar-menu {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .nav-item {
+    margin: 0 10px;
+  }
+}
+
+.price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 14px;
+}
+
+.img {
+  width: 400px;
+  height: auto;
+}
+
+.nama:hover {
+  background-color: transparent;
+  cursor: default;
+}
+/*# sourceMappingURL=custom.css.map */

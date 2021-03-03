@@ -1,0 +1,77 @@
+.checkout {
+    // max-width: 800px;
+    h1 {
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .p {
+        margin: 0;
+    }
+}
+
+.daftar-menu {
+    margin-right: 60px;
+    label {
+        color: gray;
+    }
+    textarea {
+        color: black;
+    }
+}
+
+.checkout-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+// CHECKOUT ERROR
+
+.error {
+    img {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    h1 {
+        margin: 20px 0;
+        font-size: 28px;
+        font-weight: 600;
+    }
+    p {
+        color: #7f7f7f;
+    }
+}
+
+.konfirmasi {
+    img {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+// .item {
+//  height: 400px;
+
+// }
+
+.success-add {
+    img {
+        max-width: 300px;
+        height: auto;
+    }
+    p {
+        color: #7f7f7f;
+    }
+}
+
+.billing-details {
+    width: 300px;
+
+}
+
+.order-details {
+    width: 100%;
+}
